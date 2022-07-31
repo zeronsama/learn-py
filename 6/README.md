@@ -25,6 +25,7 @@ python中函数的命名规范是`function_name`
 ## 进阶
 
 - 默认参数必须指向**不可变对象**
+
     ```python
     def wrong_demo(obj=[]) #列表是可变对象
         pass #多次调用会出错
@@ -33,13 +34,19 @@ python中函数的命名规范是`function_name`
         if obj==None:
             obj = []
     ```
+    
 - 可变参数的两种形式
+
     - `*parameter`
+
         接受多个参数，形成**元组**
+
     - `**parameter`
+
         接收`参数=赋值`的形式，形成**字典**
 
 - 变量的作用域
+
     函数体内部使用全局变量，加上`global`修饰
 
 ## 匿名函数(lambad表达式)

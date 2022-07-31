@@ -44,4 +44,5 @@ python的跟书自学
 ###### 实战篇
 
 17. - [ ] [智慧星答题测试系统](/17)
+
     (Django框架+Bootstrap+MySQL+Redis实现)
